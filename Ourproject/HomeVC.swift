@@ -49,6 +49,7 @@ class HomeVC: UIViewController ,UICollectionViewDelegate, UICollectionViewDataSo
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var i = 1
         cargos.append(Cargo(cargoID: 1 ,name: "商品1", price: 10000, image:UIImage(named: "test")!))
         cargos.append(Cargo(cargoID: 2 ,name: "商品2", price: 12000, image:UIImage(named: "girl")!))
         cargos.append(Cargo(cargoID: 3 ,name: "商品3", price: 11000, image:UIImage(named: "girl2")!))
